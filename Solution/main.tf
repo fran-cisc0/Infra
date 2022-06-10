@@ -24,6 +24,7 @@ module "RGroups" {
   tupla_rgname_lc = var.tupla_rgname_lc
 }
 
+/*
 //Log Analytics
 module "LogAnalitycs" {
   source                = "./Modules/LogAnalitycs"
@@ -42,3 +43,4 @@ module "LogAnalitycs" {
         },
     ]
 }
+*/
