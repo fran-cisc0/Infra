@@ -1,8 +1,8 @@
 //Backend Example.
 terraform {
   backend "azurerm" {
-    resource_group_name  = "terraform"
-    storage_account_name = "hackterraform"
+    resource_group_name  = "terraform-grupo3-rg"
+    storage_account_name = "terraformgrupo03sa"
     container_name       = "tfstate"
     key                  = "prod.terraform.tfstate"
   }
