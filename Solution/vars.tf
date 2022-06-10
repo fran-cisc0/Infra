@@ -2,10 +2,10 @@ variable tupla_rgname_lc {
     type = map(any)
 }
 
-variableprefix {
+variable prefix {
     type = string
 }
 
-variableproject {
+variable project {
     type = string
 }
